@@ -15,7 +15,7 @@ def detect(case=None):
 class Course:
     def __init__(self, name, c_list):
         self.name = name  # 学员名
-        self.c_list = []  # 课程列表
+        self.c_list = c_list  # 课程列表
 
     # 选修课
     def add_course(self, c_name):
@@ -30,3 +30,6 @@ class Course:
             self.c_list.remove(c_name)
         else:
             print('选修课不能为空')
+
+
+print(__name__)  # __main__
