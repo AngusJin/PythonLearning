@@ -20,6 +20,3 @@ print(c.c_list)
 # c.remove_course('英语')
 # c.remove_course('英语')
 # print(c.c_list)
-
-
-
