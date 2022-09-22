@@ -14,3 +14,12 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+# import glob
+#
+# t_list = glob.glob('**/', recursive=True)
+# print(t_list)
+#
+# for i in t_list:
+#     print(i)
