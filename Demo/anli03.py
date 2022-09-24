@@ -8,7 +8,7 @@ import datetime
 path = input('请输入要查询的路径:')
 os.chdir(path)
 
-paths = glob.glob('**/*.docx', recursive=True)  # 遍历文件夹下的所有文件后缀为.docx的文件
+paths = glob.glob('**/*.xlsx', recursive=True)  # 遍历文件夹下的所有文件后缀为.docx的文件
 
 for path in paths:
     file_sizes = os.stat(path).st_size / 1024 / 1024
