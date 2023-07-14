@@ -11,8 +11,8 @@ def login():
         print('输入错误')
 
 
-# print(login)
-# login()
+print(login)
+login()
 
 
 def generate_random():

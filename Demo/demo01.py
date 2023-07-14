@@ -20,7 +20,8 @@ def main():
     baseurl = "https://movie.douban.com/top250?start="  # 要爬取的网页链接
     # 1.爬取网页
     datalist = getData(baseurl)
-    savepath = "file\豆瓣电影Top250.xls"  # 当前目录新建XLS，存储进去
+    savepath = "" \
+               "file\豆瓣电影Top250.xls"  # 当前目录新建XLS，存储进去
     # dbpath = "movie.db"              #当前目录新建数据库，存储进去
     # 3.保存数据
     # 2种存储方式可以只选择一种

@@ -27,17 +27,21 @@ print(value)
 
 print('--------')
 
+
+print('---遍历---')
 # 遍历
-# for i in person:
-#     print(i)
+for i in person():
+    print(i)
 #
 # for k in person.keys():
 #     print(k)
+#
+# for j in person.values():
+#     print(j)
 
-for j in person.values():
-    print(j)
+print('---遍历---')
 
 print('--------')
 
 for a, b in person.items():
-    print(a,b)
+    print(a, b)
